@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Only Three – Focus on What Matters Today</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="app">
+
+    <header>
+      <h1>Today, just a few things.</h1>
+      <p>Write everything down. You’ll only focus on what truly matters today.</p>
+    </header>
+
+    <section class="brain-dump">
+      <textarea
+        id="brainDump"
+        placeholder="One task per line. Messy is okay."
+      ></textarea>
+      <p class = "helper-text">
+        Messy is okay. This isnt a to-do list. This is a brain dump.
+      </p>
+    </section>
+
+    <section class="actions">
+      <button id="generateThree">Choose my 3 for today</button>
+      <p id="lockHint">Your focus is locked for today. Come back tomorrow.</p>
+    </section>
+
+    <section class="chosen">
+      <h2>Today’s Focus</h2>
+      <div id="chosenThree"></div>
+    </section>
+
+    <section class="history">
+      <h2>Past Days</h2>
+      <div id="pastDays"></div>
+    </section>
+    <section class="upgrade">
+      <p>
+        Want reminders, unlimited history, and deeper focus tools?
+      </p>
+      <button id="upgradeBtn">Unlock Only Three Pro</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
